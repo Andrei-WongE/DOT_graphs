@@ -10,4 +10,4 @@ Tangible manifestations of boundaries are domain-specific and enforce domain-spe
            * Functional: A gap in urban systems (e.g., no public transport link).
            * Symbolic: Collective semiotic demarcations (e.g., flags, murals, architecture).
 
-What is measurable is the underlying discontinuity, quantified by using edge detection models.
+What is measurable is the underlying discontinuity, quantified using edge detection models. Nevertheless, discontinuity has to be inffered from census data which contains areal data, that is, administrative areas. Such areas contain counts or proportions of variables. In order to statisticaly infer "real" discontinuities one first has to model a variable surface extrapolated from these counts or proportions. In other words, need a model to distinguish spatial variation from artifact noise.

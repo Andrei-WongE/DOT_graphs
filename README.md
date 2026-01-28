@@ -1,2 +1,1 @@
-# DOT_graphs
-Conceptual graphs of social boundaries research. 
+# Conceptual model of boundaries and segregation. 

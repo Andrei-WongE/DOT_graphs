@@ -310,9 +310,9 @@ digraph nested_spatial_scales {
 d <- grViz("
  digraph {
     # ATTRIBUTES
-   graph [layout = dot, rankdir = LR, splines=ortho, nodesep=0.6]
-   node [shape = box, style = rounded, fontname = Helvetica, fontsize=11]
-   edge [fontname = Helvetica, fontsize=12, color=gray50]
+   graph [layout = dot, rankdir = LR, splines=ortho, nodesep=0.6, fontsize = 18]
+   node [shape = box, style = rounded, fontname = Helvetica, fontsize=16]
+   edge [fontname = Helvetica, fontsize=16, color=gray50]
    
     # PHASE 1: ONTOLOGICAL
    subgraph cluster_ontology {
@@ -320,6 +320,7 @@ d <- grViz("
      style = 'rounded,filled';
      fillcolor = LightGray;
      fontname = Helvetica;
+     fontsize = 20;
       discontinuity [label = '1. DISCONTINUITIES\n\nObjective spatial differences in social,\neconomic, or physical variables.\n(Physical Form: Transition Zone)'];
    }
     # PHASE 2: EPISTEMOLOGICAL
@@ -328,9 +329,10 @@ d <- grViz("
      style = 'rounded,filled';
      fillcolor = LightSkyBlue;
      fontname = Helvetica;
+     fontsize = 20;
      edges [label = '2. EDGES\n(Intersubjective Level)\n\nA collectively recognized line that\ndelineates a discontinuity.'];
      symbolic [label = '1. SYMBOLIC BOUNDARIES\n(Individual Level)\n\nAn individual`s cognitive distinctions\n(`us vs. them`) that categorize discontinuities.'];
-     social_boundary [label = '3. SOCIAL BOUNDARIES\n(Group Level)\n\nAn Edge activated by a group to\nmodulate social interactions.'];
+     social_boundary [label = '3. BOUNDARIES\n(Group Level)\n\nAn Edge activated by a group to\nmodulate social interactions.'];
    }
     # PHASE 3: EXPRESSION & MEASUREMENT
    subgraph cluster_expression {
@@ -338,6 +340,7 @@ d <- grViz("
      style = 'rounded,filled';
      fillcolor = LightBlue;
      fontname = Helvetica;
+     fontsize = 20;
       forms [label = '1. FORMS OF EXPRESSION:\nBOUNDARIES\n\nTangible forms a Social Boundary takes:\nMorphological, Political, Social,\nFunctional, Symbolic.'];
      multiplex [label = '2. OVERALL STRUCTURAL STATE:\nMULTIPLEX SEGREGATION\n\nThe societal condition resulting from the\ncombination of different Boundaries.'];
      intensity [label = '3. QUANTIFICATION:\nEDGE INTENSITY\n\nThe quantitative measurement of the steepness\nof a Discontinuity at a recognized Edge.'];
